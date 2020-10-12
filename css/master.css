@@ -1,0 +1,147 @@
+body{
+  background-color: #eeeeee;
+  color: #2c2828;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0;
+}
+h1{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 5.0rem;
+  margin-bottom: 0;
+}
+h2{
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+h3{
+  font-size: 1.7rem;
+}
+.name-img{
+  border-radius: 100%;
+  margin-top: 150px;
+}
+#statement{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+.top{
+  background-image: url("https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1028&q=80");
+  background-repeat: no-repeat;
+  background-size: 1600px 800px;
+  height: 800px;
+}
+hr{
+  width: 70%;
+  border-width: 30px 0 0;
+  border-style: dotted;
+  border-color: steelblue;
+  margin-bottom: 0;
+  margin: 15px auto;
+}
+.middle{
+  padding-top: 80px;
+  min-height: 800px;
+}
+.container{
+  width: 50%;
+  margin: 50px auto 100px 230px;
+  text-align: left;
+}
+.skill{
+  margin: 80px 0;
+}
+.html-img{
+  float: left;
+  margin-right: 12px;
+  width: 100px;
+}
+.css-img{
+  float: right;
+  margin-left: 12px;
+  width: 100px;
+}
+.climb-img{
+  background-color: grey;
+  border-radius: 100%;
+  float: left;
+  margin-right: 12px;
+  width: 100px;
+}
+.right{
+  border: 5px black solid;
+  border-radius: 15px;
+  width: 250px;
+  float: right;
+  padding: 20px 10px;
+  margin-right: 7%;
+  line-height: 1.5;
+}
+.bottom{
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+.calling{
+  font-size: 2rem;
+}
+.travel-button{
+  border: solid black 2px;
+  border-radius: 7px;
+  color: #1a1c20;
+  padding: 15px 28px;
+}
+.travel-button:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+.social-link{
+  margin: 3% 4%;
+}
+.social-link:hover{
+  border: 2px black solid;
+  border-radius: 4px;
+  background-color: steelblue;
+}
+
+/*==================== SECOND PAGE ==========================*/
+
+.flexbox-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.flexbox{
+  background-color: #d9e4dd;
+  border: 5px black solid;
+  border-radius: 15px;
+  margin: 40px;
+  min-height: 600px;
+  min-width: 300px;
+  width: 400px;
+}
+.job-name{
+  padding-top: 20px;
+}
+.job-history{
+  text-align: left;
+  padding: 0 10px;
+}
+.panago-history{
+  margin-top: 15px;
+}
+.res-link{
+  padding-bottom: 20px;
+}
+.res-date{
+  display: inline-block;
+  margin-right: 20px;
+}
+.forms{
+  margin: 60px 0;
+}
+.sugg-label{
+  margin-top: 20px;
+}
+.btn-2{
+  margin-top: 40px;
+}
